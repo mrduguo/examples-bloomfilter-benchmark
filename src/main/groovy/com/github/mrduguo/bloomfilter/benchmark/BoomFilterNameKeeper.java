@@ -3,13 +3,8 @@ package com.github.mrduguo.bloomfilter.benchmark;
 import com.google.common.hash.BloomFilter;
 import com.google.common.hash.Funnels;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Component;
 
 import java.nio.charset.Charset;
-import java.util.HashSet;
-import java.util.Set;
 
 public class BoomFilterNameKeeper implements NameKeeper {
 

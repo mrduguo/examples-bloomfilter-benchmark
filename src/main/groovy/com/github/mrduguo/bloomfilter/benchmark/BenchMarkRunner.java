@@ -1,6 +1,5 @@
 package com.github.mrduguo.bloomfilter.benchmark;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -15,7 +14,7 @@ class BenchMarkRunner implements CommandLineRunner{
     @Value("${benchmark.numberOfElements:1000}")
     private long numberOfElements;
 
-    @Value("${benchmark.storeType:guaranteed}")
+    @Value("${benchmark.storeType:probability}")
     private String storeType;
 
     private NameKeeper nameKeeper;

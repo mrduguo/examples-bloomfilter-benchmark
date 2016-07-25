@@ -1,8 +1,5 @@
 package com.github.mrduguo.bloomfilter.benchmark;
 
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Component;
-
 import java.util.HashSet;
 import java.util.Set;
 
