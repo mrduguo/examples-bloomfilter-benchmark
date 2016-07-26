@@ -3,7 +3,9 @@ package com.github.mrduguo.bloomfilter.benchmark;
 import java.util.HashSet;
 import java.util.Set;
 
-
+/**
+ * HashSet based store to support 100% guaranteed answer on each elements
+ */
 public class HashSetNameKeeper implements NameKeeper {
 
     private Set<String> elements = new HashSet<String>();
